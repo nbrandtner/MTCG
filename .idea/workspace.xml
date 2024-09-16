@@ -4,14 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e193dd7-8790-49a5-af2c-cd208cbb37fb" name="Changes" comment="project structure 0.1" />
+    <list default="true" id="9e193dd7-8790-49a5-af2c-cd208cbb37fb" name="Changes" comment="project structure 0.1">
+      <change beforePath="F:/MTCG/.idea/workspace.xml" beforeDir="false" afterPath="F:/MTCG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="F:/MTCG/src/main/java/org/example/Main.java" beforeDir="false" afterPath="F:/MTCG/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE" />
+      </set>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="F:/MTCG" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2m9tazgaFn4U0ndItjuaDUWAKPT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -45,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726500687033</updated>
-      <workItem from="1726500688049" duration="1240000" />
+      <workItem from="1726500688049" duration="1445000" />
     </task>
     <task id="LOCAL-00001" summary="project structure 0.1">
       <option name="closed" value="true" />
@@ -55,7 +68,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726501738074</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project structure 0.1">
+      <option name="closed" value="true" />
+      <created>1726501955323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726501955323</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
