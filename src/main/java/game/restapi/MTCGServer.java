@@ -189,7 +189,7 @@ public class MTCGServer {
                     os.close();
                 } else {
                     user.setCoins(user.getCoins() - 5);
-                    Package acquiredPackage = availablePackages.remove(0);
+                    Package acquiredPackage = availablePackages.removeFirst();
                     user.getStack().addAll(acquiredPackage.getCards());
 
                     // Serialize the acquired package content
