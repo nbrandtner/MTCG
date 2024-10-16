@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e193dd7-8790-49a5-af2c-cd208cbb37fb" name="Changes" comment="project structure 0.2">
-      <change beforePath="F:/MTCG/.idea/misc.xml" beforeDir="false" afterPath="F:/MTCG/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9e193dd7-8790-49a5-af2c-cd208cbb37fb" name="Changes" comment="added protocol">
       <change beforePath="F:/MTCG/.idea/workspace.xml" beforeDir="false" afterPath="F:/MTCG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="F:/MTCG/README.md" beforeDir="false" afterPath="F:/MTCG/README.md" afterDir="false" />
+      <change beforePath="F:/MTCG/projectstructure.png" beforeDir="false" />
       <change beforePath="F:/MTCG/src/main/java/game/restapi/MTCGServer.java" beforeDir="false" afterPath="F:/MTCG/src/main/java/game/restapi/MTCGServer.java" afterDir="false" />
+      <change beforePath="F:/MTCG/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,28 +44,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/Technikum",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Technikum&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MTCG" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
@@ -99,7 +101,8 @@
       <updated>1726500687033</updated>
       <workItem from="1726500688049" duration="1708000" />
       <workItem from="1729080815031" duration="1735000" />
-      <workItem from="1729082650040" duration="1570000" />
+      <workItem from="1729082650040" duration="1632000" />
+      <workItem from="1729092592978" duration="1853000" />
     </task>
     <task id="LOCAL-00001" summary="project structure 0.1">
       <option name="closed" value="true" />
@@ -125,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726502178468</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="intermediate handin + uml">
+      <option name="closed" value="true" />
+      <created>1729084275670</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729084275670</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +169,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="project structure 0.1" />
     <MESSAGE value="project structure 0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="project structure 0.2" />
+    <MESSAGE value="intermediate handin + uml" />
+    <MESSAGE value="added protocol" />
+    <option name="LAST_COMMIT_MESSAGE" value="added protocol" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

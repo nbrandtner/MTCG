@@ -1,7 +1,5 @@
 package game.restapi;
 
-
-
 import game.packs.Package;
 import game.user.User;
 /*
