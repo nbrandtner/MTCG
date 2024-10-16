@@ -4,21 +4,20 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e193dd7-8790-49a5-af2c-cd208cbb37fb" name="Changes" comment="added protocol">
-      <change afterPath="$PROJECT_DIR$/uml-diagram01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uml-diagram02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_10_2024_14_14__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml-diagram.png" beforeDir="false" />
+    <list default="true" id="9e193dd7-8790-49a5-af2c-cd208cbb37fb" name="Changes" comment="cleaned up Handlers into their own files">
+      <change beforePath="F:/MTCG/.idea/workspace.xml" beforeDir="false" afterPath="F:/MTCG/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Pull.Settings">
     <option name="OPTIONS">
@@ -28,37 +27,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="F:/MTCG" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;nbrandtner&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/nbrandtner/MTCG.git&quot;,
-    &quot;accountId&quot;: &quot;b1bf3ca8-fb80-41b0-bb81-bfc62abac84b&quot;
-  }
-}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="customMavenHome" value="$PROJECT_DIR$/../../../../../Program Files/Maven/apache-maven-3.9.0" />
-        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="mavenHome" value="C:/Program Files/Maven/apache-maven-3.9.0" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
   <component name="ProjectId" id="2m9tazgaFn4U0ndItjuaDUWAKPT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -69,15 +51,11 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.MTCGServer.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MTCG.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nbran/Documents/MTCG/MTCG&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/MTCG&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -91,43 +69,44 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MTCG">
+    <configuration name="MTCG" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="game.restapi.MTCGServer" />
+      <module name="MTCG" />
+      <option name="WORKING_DIRECTORY" value="F:/MTCG" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MTCG" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
-            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
             <option name="goals">
               <list />
             </option>
-            <option name="multimoduleDir" />
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
             </option>
-            <option name="projectsCmdOptionValues">
-              <list />
-            </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
+            <option name="workingDirPath" value="F:/MTCG" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
       <method v="2" />
     </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
-      </set>
-    </attachedChunks>
+    <list>
+      <item itemvalue="Application.MTCG" />
+      <item itemvalue="Maven.MTCG" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -140,9 +119,8 @@
       <workItem from="1726500688049" duration="1708000" />
       <workItem from="1729080815031" duration="1735000" />
       <workItem from="1729082650040" duration="1632000" />
-      <workItem from="1729092592978" duration="1853000" />
-      <workItem from="1729099528986" duration="1477000" />
-      <workItem from="1729101190710" duration="946000" />
+      <workItem from="1729092592978" duration="2485000" />
+      <workItem from="1729097619016" duration="3173000" />
     </task>
     <task id="LOCAL-00001" summary="project structure 0.1">
       <option name="closed" value="true" />
@@ -176,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729084275670</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added protocol">
+      <option name="closed" value="true" />
+      <created>1729094490764</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729094490764</updated>
+    </task>
+    <task id="LOCAL-00006" summary="cleaned up Handlers into their own files">
+      <option name="closed" value="true" />
+      <created>1729099480836</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729099480836</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +205,8 @@
     <MESSAGE value="project structure 0.2" />
     <MESSAGE value="intermediate handin + uml" />
     <MESSAGE value="added protocol" />
-    <option name="LAST_COMMIT_MESSAGE" value="added protocol" />
+    <MESSAGE value="cleaned up Handlers into their own files" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up Handlers into their own files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

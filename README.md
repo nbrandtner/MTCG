@@ -20,26 +20,35 @@ The following key features have been implemented:
 
 ### 2.2 Server Components
 
-The server comprises several core components that handle specific routes:
+The server comprises several core components that handle specific routes. Each handler has now been separated into its own class within a dedicated package (`game.restapi.handlers`), improving modularity:
 
-- **UserHandler**: Handles user registration and creation of new users. (Right now new Users are being saved in a Hashmap because i havent fully set up the PostgreSQL Docker Container)
+- **UserHandler**: Handles user registration and creation of new users. *(Currently, new users are being saved in a `HashMap` since the PostgreSQL Docker container is not fully set up.)*
 - **SessionHandler**: Manages user login and token generation for session management.
 - **PackageHandler**: Responsible for adding new card packages to the server.
 - **AcquirePackageHandler**: Handles transactions where users acquire a package using their coins.
+- **CardsHandler**: Handles requests related to viewing acquired cards.
+- **DeckHandler**: Handles requests for managing and configuring a user’s deck.
+- **TradingHandler**: Manages trading deals between users.
+- **StatsHandler**: Provides access to user statistics.
+- **ScoreboardHandler**: Displays the scoreboard, showing users' rankings.
+- **BattleHandler**: Handles battles between users.
 
 ### 2.3 Class Diagram
 
-The following class diagram illustrates the relationships between the core classes in the application.
+The following class diagrams illustrate the relationships between the core classes in the application.
 
 Class Diagram for the Handlers:
 ![Class Diagram](./uml-diagram01.png)
-Class Diagram for the rest:
+
+Class Diagram for the Model Classes:
 ![Class Diagram](./uml-diagram02.png)
-(it was too much to fit on one screenshot with the tool i used)
+
+*(It was too much to fit in one screenshot with the tool I used.)*
+
 ### 2.4 Key Classes
 
 #### 2.4.1 `MTCGServer`
-The `MTCGServer` is responsible for initializing and running the server, creating the various contexts for the different routes.
+The `MTCGServer` is responsible for initializing and running the server, creating the various contexts for the different routes. It links all the handlers into their respective endpoints.
 
 #### 2.4.2 `User`
 The `User` class stores user-related information such as username, password, coins, stack (cards), and deck.
@@ -57,7 +66,8 @@ The `Package` class represents a collection of cards that users can acquire. Eac
 
 The project is structured into multiple packages, each handling different aspects of the game logic:
 
-- `game.restapi`: Contains the server and HTTP handlers for managing REST API routes.
+- `game.restapi`: Contains the `MTCGServer` class that initializes the server and sets up the various REST API routes.
+- `game.restapi.handlers`: Contains individual classes for each REST API handler. Each handler is responsible for a specific endpoint (e.g., `UserHandler`, `SessionHandler`, etc.).
 - `game.user`: Contains the `User` class and manages user-related functionality.
 - `game.card`: Contains the `Card` class that defines the properties of individual cards.
 - `game.deck`: Contains the `Deck` class for managing a user's deck of cards.
