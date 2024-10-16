@@ -17,7 +17,6 @@ The following key features have been implemented:
 - HTTP request parsing and routing functionality.
 - User registration, login, and user state management.
 - Token-based authentication for security.
-- Integration tests for ensuring the correct functionality of core features.
 
 ### 2.2 Server Components
 
