@@ -31,8 +31,11 @@ The server comprises several core components that handle specific routes:
 
 The following class diagram illustrates the relationships between the core classes in the application.
 
-![Class Diagram](./uml-diagram.png)
-
+Class Diagram for the Handlers:
+![Class Diagram](./uml-diagram01.png)
+Class Diagram for the rest:
+![Class Diagram](./uml-diagram02.png)
+(it was too much to fit on one screenshot with the tool i used)
 ### 2.4 Key Classes
 
 #### 2.4.1 `MTCGServer`

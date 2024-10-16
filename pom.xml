@@ -28,7 +28,7 @@
             <version>42.7.2</version>
         </dependency>
 
-        <!-- JUnit for testing -->
+        <!-- JUnit for testing in the future -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
